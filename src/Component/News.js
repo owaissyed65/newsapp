@@ -34,7 +34,7 @@ capitalizeFirstLetter = (string) =>{
     async componentDidMount () {
     this.props.progress(15)
     let url =
-    `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apikey=fef29adb63fa4a82a8aa6ddb15911473&pagesize=${this.props.pagesize}`;  
+    `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apikey=57af6b11642642c9bf714d2db86f8aa3&pagesize=${this.props.pagesize}`;  
     this.props.progress(30)
     this.setState({loading:true})
     this.props.progress(45)
@@ -89,7 +89,7 @@ capitalizeFirstLetter = (string) =>{
   // };
   fetchMoreData =async () => {
     this.setState({page:this.state.page+1})
-    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apikey=fef29adb63fa4a82a8aa6ddb15911473&page=${
+    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apikey=57af6b11642642c9bf714d2db86f8aa3&page=${
       this.state.page+1
     }&pagesize=${this.props.pagesize}`;
     let data = await fetch(url);
