@@ -1,5 +1,5 @@
-
 import './App.css';
+
 import React, { Component } from 'react'
 import NavBar from './Component/NavBar';
 import News from './Component/News';
@@ -29,7 +29,6 @@ handleModeClick=()=>{
     })
     this.setState({text:'Disable Dark Mode'})
     this.setState({body:document.body.style.backgroundColor='#5b2222'})
-    
   }
   else{
     this.setState({

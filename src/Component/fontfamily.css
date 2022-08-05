@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Arimo:wght@500&display=swap');
+.font-family{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.font-family2{
+    font-family:'Times New Roman', Times, serif;
+}
+.font-family3{
+    font-family: 'Arimo', sans-serif;
+}
+.font-family4{
+    font-family: 'Archivo Black', sans-serif;
+}
+.font-size{
+font-size: 1.2em;
+}
+.font-size-head{
+    font-size: 1.8em;
+}
+.hovereffect:hover{
+    text-decoration:underline;
+}
+.hovereffect:focus{
+    text-decoration:underline;
+}
